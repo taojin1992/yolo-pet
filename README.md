@@ -188,9 +188,9 @@ If you want to train yolo by your self or train other dataset, you can refer to 
   ```
   The train result will be at your backup directory. You can follow the guide above and test whether it is good or not.
   
-  
+```
 c02wj0huhv2t:darknet jintao01$ ./darknet detector test cfg/pet.data cfg/yolov3-tiny-TJ.cfg pet_backup/yolov3-tiny-TJ_final.weights ../JPEGImages/Abyssinian_1.jpg -i 0 -thresh 0.2
-
+```
 
 
 Darknet prints out the objects it detected, its confidence, and how long it took to find them. We didn't compile Darknet with OpenCV so it can't display the detections directly. Instead, it saves them in predictions.png. You can open it to see the detected objects.
