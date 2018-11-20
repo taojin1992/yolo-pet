@@ -173,7 +173,7 @@ If you want to train yolo by your self or train other dataset, you can refer to 
   Make a directory for training backup. The name should be same as you defined in `pet.data`.
 
   ```
-  mkdir darknet/pet_backups
+  mkdir darknet/pet_backup
   ```
 
 - Train yolo
