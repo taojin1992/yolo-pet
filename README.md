@@ -182,4 +182,8 @@ If you want to train yolo by your self or train other dataset, you can refer to 
   cd darknet 
   ./darknet detector train cfg/pet.data cfg/yolov3-pet.cfg  darknet53.conv.74 
   ```
+  If train tiny-yolo, use:
+  ```
+  ./darknet detector train cfg/pet.data cfg/yolov3-tiny-TJ.cfg yolov3-tiny-TJ.weights
+  ```
   The train result will be at your backup directory. You can fellow the guide above and test wheather it is good or not.
